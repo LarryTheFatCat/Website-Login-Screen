@@ -1,5 +1,6 @@
 .input-group {
     position: relative;
+
 }
 
 .input {
@@ -10,7 +11,7 @@
     color: #fff;
     background-color: transparent;
     outline: 2px solid #fff;
-    float: center;
+
 }
 
 .input-label {
@@ -26,7 +27,7 @@
     transform: 
     translate(10px, -14px) scale(.8);
     color: #d1c5fc;
-    padding-inline: 5px;
+    margin: 0;
     background-color: #242329;
 
 }
@@ -49,5 +50,5 @@ html {
   }
   .card:hover {
     border-color: #ff99ff;
-    float: center;
+
   }
