@@ -37,7 +37,7 @@ body {
     outline: 2px solid #fff;
     flex: wrap;
     display: flex;
-    flex-wrap: wrap;    
+    flex-wrap: wrap;  
 }
 
 .input-label {
@@ -47,9 +47,7 @@ body {
     transform: translate(10px, 10px);
     transform-origin: left;
     transition: transform .25s;
-    flex: wrap;
-    display: flex;
-    flex-wrap: wrap;  
+    cursor: pointer;
 }
 
 
@@ -57,9 +55,8 @@ body {
 .input:valid~.input-label {
     transform: translate(0, -30px) scale(.8);
     color: #d1c5fc;
-    flex: wrap;
-    display: flex;
-    flex-wrap: wrap;
+    border: none;
+
 }
 
 
@@ -68,6 +65,7 @@ body {
     flex: wrap;
     display: flex;
     flex-wrap: wrap;  
+
 }
 
 .password-group {
@@ -76,7 +74,7 @@ body {
     left: 43%;
     flex: wrap;
     display: flex;
-    flex-wrap: wrap;  
+    flex-wrap: wrap; 
 }
 
 
@@ -93,7 +91,6 @@ button {
     left: 48%;
     flex: wrap;
     display: flex;
-    flex-wrap: wrap;  
 }
 
 html { 
@@ -125,4 +122,9 @@ html {
     display: flex;
     flex-wrap: wrap;  
   }
+
+  #wrapper {
+    margin-left: auto;
+    margin-right: auto;
+}
 
