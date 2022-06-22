@@ -18,7 +18,10 @@ body {
 /* ======================== */
 
 .input-group {
-    position: relative;
+    position: absolute;
+    top: 38%;
+    left: 43%;
+
 }
 
 .input {
@@ -40,6 +43,7 @@ body {
     transition: transform .25s;
 }
 
+
 .input:focus~.input-label,
 .input:valid~.input-label {
     transform: translate(0, -30px) scale(.8);
@@ -50,6 +54,13 @@ body {
 .input:is(:focus, :valid) {
     outline-color: #d1c5fc;
 }
+
+.password-group {
+    position: absolute;
+    top: 50%;
+    left: 43%;
+}
+
 
 button {
     padding: 10px;
