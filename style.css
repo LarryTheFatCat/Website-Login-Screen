@@ -46,8 +46,22 @@ body {
     color: #d1c5fc;
 }
 
+
 .input:is(:focus, :valid) {
     outline-color: #d1c5fc;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font: inherit;
+    color: #fff;
+    background-color: #6e5da9;
+    cursor: pointer;
+    position: absolute;
+    top: 68%;
+    left: 48%;
 }
 
 html { 
