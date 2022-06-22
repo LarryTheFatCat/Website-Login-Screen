@@ -1,0 +1,53 @@
+.input-group {
+    position: relative;
+}
+
+.input {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font: inherit;
+    color: #fff;
+    background-color: transparent;
+    outline: 2px solid #fff;
+    float: center;
+}
+
+.input-label {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transform: translate(10px, 10px);
+    transition: transform .25s;
+}
+
+.input:focus+.input-label,
+.input:valid+.input-label {
+    transform: 
+    translate(10px, -14px) scale(.8);
+    color: #d1c5fc;
+    padding-inline: 5px;
+    background-color: #242329;
+
+}
+
+html { 
+    background: url(imgs/background.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .card {
+    margin: 30px;
+    padding: 20px 40px 40px;
+    background: rgb(95, 94, 101);
+    border-bottom: 4px solid rgb(87, 7, 236);
+    border-radius: 6px;
+    transition: all 0.8s;
+  }
+  .card:hover {
+    border-color: #ff99ff;
+    float: center;
+  }
