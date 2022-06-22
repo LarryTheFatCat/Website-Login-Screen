@@ -1,6 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #242329;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    color: #fff;
+}
+
+/* ======================== */
+
 .input-group {
     position: relative;
-
 }
 
 .input {
@@ -11,28 +29,24 @@
     color: #fff;
     background-color: transparent;
     outline: 2px solid #fff;
-
 }
 
 .input-label {
     position: absolute;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     transform: translate(10px, 10px);
+    transform-origin: left;
     transition: transform .25s;
 }
 
-.input:focus+.input-label,
-.input:valid+.input-label {
-    transform: 
-    translate(10px, -14px) scale(.8);
+.input:focus~.input-label,
+.input:valid~.input-label {
+    transform: translate(0, -30px) scale(.8);
     color: #d1c5fc;
-    margin: 0;
-    background-color: #242329;
-
 }
 
-.input:is(focus, :valid) {
+.input:is(:focus, :valid) {
     outline-color: #d1c5fc;
 }
 
