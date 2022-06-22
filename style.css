@@ -21,6 +21,9 @@ body {
     position: absolute;
     top: 38%;
     left: 43%;
+    flex: wrap;
+    display: flex;
+    flex-wrap: wrap;  
 
 }
 
@@ -32,6 +35,9 @@ body {
     color: #fff;
     background-color: transparent;
     outline: 2px solid #fff;
+    flex: wrap;
+    display: flex;
+    flex-wrap: wrap;    
 }
 
 .input-label {
@@ -41,6 +47,9 @@ body {
     transform: translate(10px, 10px);
     transform-origin: left;
     transition: transform .25s;
+    flex: wrap;
+    display: flex;
+    flex-wrap: wrap;  
 }
 
 
@@ -48,17 +57,26 @@ body {
 .input:valid~.input-label {
     transform: translate(0, -30px) scale(.8);
     color: #d1c5fc;
+    flex: wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
 .input:is(:focus, :valid) {
     outline-color: #d1c5fc;
+    flex: wrap;
+    display: flex;
+    flex-wrap: wrap;  
 }
 
 .password-group {
     position: absolute;
     top: 50%;
     left: 43%;
+    flex: wrap;
+    display: flex;
+    flex-wrap: wrap;  
 }
 
 
@@ -73,6 +91,9 @@ button {
     position: absolute;
     top: 68%;
     left: 48%;
+    flex: wrap;
+    display: flex;
+    flex-wrap: wrap;  
 }
 
 html { 
@@ -94,8 +115,14 @@ html {
     border-bottom: 4px solid rgb(87, 7, 236);
     border-radius: 6px;
     transition: all 0.8s;
+    flex: wrap;
+    display: flex;
+    flex-wrap: wrap;  
   }
   .card:hover {
     border-color: #ff99ff;
+    flex: wrap;
+    display: flex;
+    flex-wrap: wrap;  
   }
 
