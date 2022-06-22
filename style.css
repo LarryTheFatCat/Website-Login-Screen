@@ -32,6 +32,10 @@
 
 }
 
+.input:is(focus, :valid) {
+    outline-color: #d1c5fc;
+}
+
 html { 
     background: url(imgs/background.png) no-repeat center center fixed; 
     -webkit-background-size: cover;
@@ -41,7 +45,11 @@ html {
   }
 
   .card {
-    margin: 30px;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
     padding: 20px 40px 40px;
     background: rgb(95, 94, 101);
     border-bottom: 4px solid rgb(87, 7, 236);
@@ -50,5 +58,5 @@ html {
   }
   .card:hover {
     border-color: #ff99ff;
-
   }
+
