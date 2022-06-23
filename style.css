@@ -147,11 +147,20 @@ button {
     left: 44%;
 }
 
+.reg:hover {
+    background-color: #4b4170;
+}
+
 .log {
     position: absolute;
     top: 67%;
     left: 51%;
 }
+
+.log:hover {
+    background-color: #4b4170;
+}
+
 
   .card {
     width: 400px;
