@@ -96,7 +96,7 @@ button {
 .button-login {
     position: absolute;
     top: 68%;
-    left: 48%;
+    left: 51%;
     flex: wrap;
     display: flex;
 }
@@ -107,8 +107,8 @@ button {
 
 .button-register {
     position: absolute;
-    top: 70.45%;
-    left: 37%;
+    top: 68%;
+    left: 44%;
     flex: wrap;
     display: flex;
 }
