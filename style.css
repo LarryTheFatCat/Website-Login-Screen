@@ -94,7 +94,7 @@ button {
 
 .button-login {
     position: absolute;
-    top: 68%;
+    top: 73%;
     left: 51%;
     flex: wrap;
     display: flex;
@@ -106,7 +106,7 @@ button {
 
 .button-register {
     position: absolute;
-    top: 68%;
+    top: 73%;
     left: 44%;
     flex: wrap;
     display: flex;
@@ -114,6 +114,12 @@ button {
 
 .button-register:hover {
     background-color: #4b4170;
+}
+
+.code-group {
+    position: absolute;
+    top: 62%;
+    left: 43%;
 }
 
 html { 
