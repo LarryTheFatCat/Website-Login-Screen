@@ -118,20 +118,25 @@ button {
 
 .username-group {
     position: absolute;
-    top: 30%;
+    top: 27%;
     left: 43%;
 }
 
-
 .pword {
     position: absolute;
-    top: 40%;
+    top: 47%;
+    left: 43%;
+}
+
+.email-group {
+    position: absolute;
+    top: 37%;
     left: 43%;
 }
 
 .code-group {
     position: absolute;
-    top: 50%;
+    top: 57%;
     left: 43%;
 }
 
