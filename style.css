@@ -15,7 +15,6 @@ body {
     color: #fff;
 }
 
-/* ======================== */
 
 .input-group {
     position: absolute;
@@ -111,6 +110,10 @@ button {
     left: 44%;
     flex: wrap;
     display: flex;
+}
+
+.button-register:hover {
+    background-color: #4b4170;
 }
 
 html { 
