@@ -93,6 +93,26 @@ button {
     display: flex;
 }
 
+.button-login {
+    position: absolute;
+    top: 68%;
+    left: 48%;
+    flex: wrap;
+    display: flex;
+}
+
+.button-login:hover {
+    background-color: #4b4170;
+}
+
+.button-register {
+    position: absolute;
+    top: 70.45%;
+    left: 37%;
+    flex: wrap;
+    display: flex;
+}
+
 html { 
     background: url(imgs/background.png) no-repeat center center fixed; 
     -webkit-background-size: cover;
@@ -122,9 +142,3 @@ html {
     display: flex;
     flex-wrap: wrap;  
   }
-
-  #wrapper {
-    margin-left: auto;
-    margin-right: auto;
-}
-
