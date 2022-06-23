@@ -118,21 +118,15 @@ button {
 
 .username-group {
     position: absolute;
-    top: 36%;
+    top: 30%;
     left: 43%;
-    flex: wrap;
-    display: flex;
-    flex-wrap: wrap;  
 }
 
 
 .pword {
     position: absolute;
-    top: 47%;
+    top: 40%;
     left: 43%;
-    flex: wrap;
-    display: flex;
-    flex-wrap: wrap;  
 }
     
 
@@ -140,7 +134,7 @@ button {
 
 .code-group {
     position: absolute;
-    top: 58%;
+    top: 50%;
     left: 43%;
 }
 
@@ -149,16 +143,12 @@ button {
     position: absolute;
     top: 65%;
     left: 44%;
-    flex: wrap;
-    display: flex;
 }
 
 .log {
     position: absolute;
     top: 65%;
     left: 51%;
-    flex: wrap;
-    display: flex;
 }
 
 html { 
