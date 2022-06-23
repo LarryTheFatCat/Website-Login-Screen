@@ -94,7 +94,7 @@ button {
 
 .button-login {
     position: absolute;
-    top: 73%;
+    top: 65%;
     left: 51%;
     flex: wrap;
     display: flex;
@@ -106,7 +106,7 @@ button {
 
 .button-register {
     position: absolute;
-    top: 73%;
+    top: 65%;
     left: 44%;
     flex: wrap;
     display: flex;
@@ -116,10 +116,49 @@ button {
     background-color: #4b4170;
 }
 
+.username-group {
+    position: absolute;
+    top: 36%;
+    left: 43%;
+    flex: wrap;
+    display: flex;
+    flex-wrap: wrap;  
+}
+
+
+.pword {
+    position: absolute;
+    top: 47%;
+    left: 43%;
+    flex: wrap;
+    display: flex;
+    flex-wrap: wrap;  
+}
+    
+
+
+
 .code-group {
     position: absolute;
-    top: 62%;
+    top: 58%;
     left: 43%;
+}
+
+
+.reg {
+    position: absolute;
+    top: 65%;
+    left: 44%;
+    flex: wrap;
+    display: flex;
+}
+
+.log {
+    position: absolute;
+    top: 65%;
+    left: 51%;
+    flex: wrap;
+    display: flex;
 }
 
 html { 
