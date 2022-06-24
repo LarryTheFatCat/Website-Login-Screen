@@ -46,7 +46,7 @@ body {
     transform: translate(10px, 10px);
     transform-origin: left;
     transition: transform .25s;
-    cursor: pointer;
+    cursor: auto;
 }
 
 
@@ -122,17 +122,18 @@ button {
     left: 43%;
 }
 
+.email-group {
+    position: absolute;
+    top: 37%;
+    left: 43%;
+}
+
 .pword {
     position: absolute;
     top: 47%;
     left: 43%;
 }
 
-.email-group {
-    position: absolute;
-    top: 37%;
-    left: 43%;
-}
 
 .code-group {
     position: absolute;
