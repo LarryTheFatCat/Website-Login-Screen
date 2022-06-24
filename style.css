@@ -52,7 +52,7 @@ body {
 
 .input:focus~.input-label,
 .input:valid~.input-label {
-    transform: translate(0, -25px) scale(.8);
+    transform: translate(0, -20px) scale(.8);
     color: #d1c5fc;
     border: none;
 
