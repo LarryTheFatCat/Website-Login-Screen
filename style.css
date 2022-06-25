@@ -20,9 +20,6 @@ body {
     position: absolute;
     top: 38%;
     left: 43%;
-    flex: wrap;
-    display: flex;
-    flex-wrap: wrap;  
 
 }
 
@@ -34,9 +31,6 @@ body {
     color: #fff;
     background-color: transparent;
     outline: 2px solid #fff;
-    flex: wrap;
-    display: flex;
-    flex-wrap: wrap;  
 }
 
 .input-label {
@@ -88,16 +82,12 @@ button {
     position: absolute;
     top: 68%;
     left: 48%;
-    flex: wrap;
-    display: flex;
 }
 
 .button-login {
     position: absolute;
     top: 65%;
     left: 51%;
-    flex: wrap;
-    display: flex;
 }
 
 .button-login:hover {
@@ -108,8 +98,6 @@ button {
     position: absolute;
     top: 65%;
     left: 44%;
-    flex: wrap;
-    display: flex;
 }
 
 .button-register:hover {
@@ -173,6 +161,28 @@ button {
     background-color: #4b4170;
 }
 
+.forgot {
+    position: absolute;
+    top: 45%;
+    left: 42.7%;
+}
+
+.forgotpass {
+    text-align:center;
+    margin-bottom: 15px;
+}
+
+.emailbutton {
+    position: absolute;
+    top: 58%;
+    left: 44.9%;
+}
+
+.emailbutton:hover {
+    background-color: #4b4170;
+}
+
+
 
   .card {
     width: 400px;
@@ -191,7 +201,4 @@ button {
   }
   .card:hover {
     border-color: #ff99ff;
-    flex: wrap;
-    display: flex;
-    flex-wrap: wrap;  
   }
