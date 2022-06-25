@@ -162,6 +162,17 @@ button {
     background-color: #4b4170;
 }
 
+.forgor {
+   position: absolute;
+    top: 72%;
+    left: 45.2%;
+    padding: 1px;
+}
+
+.forgor:hover {
+    background-color: #4b4170;
+}
+
 
   .card {
     width: 400px;
