@@ -182,7 +182,9 @@ button {
     background-color: #4b4170;
 }
 
-
+a {
+    text-align: center;
+}
 
   .card {
     width: 400px;
