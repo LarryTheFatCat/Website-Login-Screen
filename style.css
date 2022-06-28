@@ -179,6 +179,6 @@ button {
     border-bottom: 4px solid rgb(87, 7, 236);
     border-radius: 20px;
     transition: all 0.8s;
-} .card:hover {
+}.card:hover {
     border-color: #ff99ff;
 }  
