@@ -89,9 +89,7 @@ button {
     position: absolute;
     top: 65%;
     left: 51%;
-}
-
-.button-login:hover {
+}.button-login:hover {
     background-color: #4b4170;
 }
 
@@ -99,9 +97,7 @@ button {
     position: absolute;
     top: 65%;
     left: 44%;
-}
-
-.button-register:hover {
+}.button-register:hover {
     background-color: #4b4170;
 }
 
@@ -135,9 +131,7 @@ button {
     position: absolute;
     top: 67%;
     left: 44%;
-}
-
-.reg:hover {
+}.reg:hover {
     background-color: #4b4170;
 }
 
@@ -145,9 +139,7 @@ button {
     position: absolute;
     top: 67%;
     left: 51%;
-}
-
-.log:hover {
+} .log:hover {
     background-color: #4b4170;
 }
 
@@ -156,9 +148,7 @@ button {
     top: 72%;
     left: 45.2%;
     padding: 1px;
-}
-
-.forgor:hover {
+} .forgor:hover {
     background-color: #4b4170;
 }
 
@@ -168,17 +158,12 @@ button {
     left: 42.7%;
 }
 
-.forgotpass {
-    margin-bottom: 15px;
-}
 
 .emailbutton {
     position: absolute;
     top: 58%;
     left: 44.9%;
-}
-
-.emailbutton:hover {
+}.emailbutton:hover {
     background-color: #4b4170;
 }
 
@@ -194,7 +179,6 @@ button {
     border-bottom: 4px solid rgb(87, 7, 236);
     border-radius: 20px;
     transition: all 0.8s;
-}
-  .card:hover {
+} .card:hover {
     border-color: #ff99ff;
 }  
