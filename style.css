@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-align: center;
 }
 
 body {
@@ -17,7 +18,7 @@ body {
 
 
 .input-group {
-    position: absolute;
+    position: fixed;
     top: 38%;
     left: 43%;
 
@@ -40,7 +41,7 @@ body {
     transform: translate(10px, 10px);
     transform-origin: left;
     transition: transform .25s;
-    cursor: auto;
+    cursor: pointer;
 }
 
 
@@ -79,7 +80,7 @@ button {
     color: #fff;
     background-color: #6e5da9;
     cursor: pointer;
-    position: absolute;
+    position: relative;
     top: 68%;
     left: 48%;
 }
@@ -168,7 +169,6 @@ button {
 }
 
 .forgotpass {
-    text-align:center;
     margin-bottom: 15px;
 }
 
@@ -182,9 +182,6 @@ button {
     background-color: #4b4170;
 }
 
-a {
-    text-align: center;
-}
 
 .card {
     width: 400px;
@@ -195,12 +192,9 @@ a {
     padding: 20px 40px 40px;
     background: rgb(95, 94, 101);
     border-bottom: 4px solid rgb(87, 7, 236);
-    border-radius: 6px;
+    border-radius: 20px;
     transition: all 0.8s;
-    flex: wrap;
-    display: flex;
-    flex-wrap: wrap;  
-  }
+}
   .card:hover {
     border-color: #ff99ff;
-  }
+}  
