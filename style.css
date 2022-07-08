@@ -103,27 +103,27 @@ button {
 
 .username-group {
     position: absolute;
-    top: 27%;
-    left: 42.7%;
+    top: 28%;
+    left: 43.5%;
 }
 
 .email-group {
     position: absolute;
-    top: 37%;
-    left: 42.7%;
+    top: 38%;
+    left: 43.5%;
 }
 
 .pword {
     position: absolute;
-    top: 47%;
-    left: 42.7%;
+    top: 48%;
+    left: 43.5%;
 }
 
 
 .code-group {
     position: absolute;
-    top: 57%;
-    left: 42.7%;
+    top: 58%;
+    left: 43.5%;
 }
 
 
@@ -182,3 +182,10 @@ button {
 }.card:hover {
     border-color: #ff99ff;
 } 
+
+.pass-forgot {
+    position: relative;
+    top: 340px;
+    font-size: 0.9rem;
+    text-align: center;
+}
