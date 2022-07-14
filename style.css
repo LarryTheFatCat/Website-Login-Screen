@@ -21,7 +21,6 @@ body {
     position: fixed;
     top: 38%;
     left: 43%;
-
 }
 
 .input {
@@ -178,7 +177,7 @@ button {
     background: rgb(95, 94, 101);
     border-bottom: 4px solid rgb(87, 7, 236);
     border-radius: 20px;
-    transition: all 0.8s;
+    transition: all 800ms ease-in-out;
 }.card:hover {
     border-color: #ff99ff;
 } 
