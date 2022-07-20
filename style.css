@@ -160,7 +160,7 @@ button {
 
 .emailbutton {
     position: absolute;
-    top: 58%;
+    top: 62%;
     left: 44.9%;
 }.emailbutton:hover {
     background-color: #4b4170;
@@ -188,3 +188,12 @@ button {
     font-size: 0.9rem;
     text-align: center;
 }
+
+.bt-login {
+    position: absolute;
+    top: 70%;
+    left: 46%;
+    font-size: 0.9rem;
+    text-align: center;
+    
+}  
