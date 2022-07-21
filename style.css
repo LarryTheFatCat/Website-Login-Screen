@@ -16,7 +16,6 @@ body {
     color: #fff;
 }
 
-
 .input-group {
     position: fixed;
     top: 38%;
@@ -49,9 +48,7 @@ body {
     transform: translate(0, -20px) scale(.8);
     color: #d1c5fc;
     border: none;
-
 }
-
 
 .input:is(:focus, :valid) {
     outline-color: #d1c5fc;
@@ -123,11 +120,15 @@ button {
     left: 43.5%;
 }
 
-
 .code-group {
     position: absolute;
     top: 58%;
     left: 43.5%;
+}
+.bt-register {
+    position: absolute;
+    top: 72%;
+    right: 48%;
 }
 
 
