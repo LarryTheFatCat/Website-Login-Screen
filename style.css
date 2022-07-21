@@ -86,8 +86,8 @@ button {
 
 .button-login {
     position: absolute;
-    top: 65%;
-    left: 51%;
+    top: 60%;
+    left: 47%;
 }.button-login:hover {
     background-color: #4b4170;
 }
@@ -195,3 +195,8 @@ button {
     top: 280px;
     font-size: 1rem;
 }  
+.noacc {
+    position: relative;
+    top: 290px;
+    font-size: 0.9rem;
+}
