@@ -190,10 +190,8 @@ button {
 }
 
 .bt-login {
-    position: absolute;
-    top: 70%;
-    left: 46%;
-    font-size: 0.9rem;
-    text-align: center;
-    
+    position: relative;
+    right: 5px;
+    top: 280px;
+    font-size: 1rem;
 }  
