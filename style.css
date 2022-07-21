@@ -92,12 +92,17 @@ button {
     background-color: #4b4170;
 }
 
-.button-register {
-    position: absolute;
-    top: 65%;
-    left: 44%;
-}.button-register:hover {
-    background-color: #4b4170;
+.pass-forgot {
+    position: relative;
+    top: 340px;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.noacc {
+    position: relative;
+    top: 290px;
+    font-size: 0.9rem;
 }
 
 .username-group {
@@ -157,7 +162,6 @@ button {
     left: 42.7%;
 }
 
-
 .emailbutton {
     position: absolute;
     top: 62%;
@@ -166,6 +170,12 @@ button {
     background-color: #4b4170;
 }
 
+.bt-login {
+    position: relative;
+    right: 5px;
+    top: 280px;
+    font-size: 1rem;
+}  
 
 .card {
     width: 400px;
@@ -182,21 +192,3 @@ button {
     border-color: #ff99ff;
 } 
 
-.pass-forgot {
-    position: relative;
-    top: 340px;
-    font-size: 0.9rem;
-    text-align: center;
-}
-
-.bt-login {
-    position: relative;
-    right: 5px;
-    top: 280px;
-    font-size: 1rem;
-}  
-.noacc {
-    position: relative;
-    top: 290px;
-    font-size: 0.9rem;
-}
