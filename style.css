@@ -128,7 +128,7 @@ button {
 .bt-register {
     position: absolute;
     top: 72%;
-    right: 48%;
+    right: 47%;
 }
 
 
@@ -142,8 +142,8 @@ button {
 
 .log {
     position: absolute;
-    top: 67%;
-    left: 51%;
+    top: 66%;
+    left: 47.5%;
 } .log:hover {
     background-color: #4b4170;
 }
