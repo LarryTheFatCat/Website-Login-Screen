@@ -6,4 +6,6 @@ There's no flex so add that yourself or make a Pull Request for it.
 
 Built using CSS3 and HTML5
 
+Terribly coded so fix it up or make a Pull Request for it.
+
 
