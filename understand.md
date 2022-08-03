@@ -9,3 +9,6 @@ Built using CSS3 and HTML5
 Terribly coded so fix it up or make a Pull Request for it.
 
 
+Byeeeee :)
+
+
