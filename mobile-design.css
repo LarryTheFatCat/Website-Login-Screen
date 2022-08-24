@@ -1,0 +1,41 @@
+@media only screen and (max-width: 376px) and (max-height: 668px) {
+    .input-group {
+        position: absolute;
+        top: 40%;
+        left: 23%;
+    }
+    .password-group {
+        position: absolute;
+        top: 50%;
+        left: 23%;
+    }
+    .button-login {
+        left: 37%;
+    }
+    .username-group {
+        position: absolute;
+        left: 23%;
+    }
+    .pword {
+        left: 23%;
+    }
+    .email-group {
+        left: 23%;
+    }
+    .code-group {
+        left: 23%;
+    }
+    .bt-register {
+        position: absolute;
+        top: 74%;
+        right: 38%;
+    }
+    .log {
+        left: 37%;
+    }
+    .btn-reset {
+        position: relative;
+        top: 60%;
+        right: 21%;
+    }
+}
