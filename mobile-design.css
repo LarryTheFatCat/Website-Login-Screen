@@ -92,3 +92,28 @@
         top: 45%;
     }
 }
+@media only screen and (max-width: 360px) and (max-height: 740px) {
+    .bt-register {
+        position: absolute;
+        top: 71%;
+        right: 32%;
+        font-size: 18px;
+    }
+    .log {
+        position: absolute;
+        top: 65%;
+        right: 32%;
+    }
+    .bt-login {
+        position: absolute;
+        top: 71%;
+        right: 35%;
+    }
+    .noacc {
+        font-size: 12px;
+    }
+    .pass-forgot {
+        font-size: 12px;
+    }
+}
+
