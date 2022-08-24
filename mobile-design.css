@@ -39,3 +39,56 @@
         right: 21%;
     }
 }
+@media only screen and (max-width: 415px) and (max-height: 897px) {
+    .input-group {
+        position: absolute;
+        top: 40%;
+        left: 23%;
+    }
+    .password-group {
+        position: absolute;
+        top: 50%;
+        left: 23%;
+    }
+    .button-login {
+        top: 58%;
+        left: 37%;
+    }
+    .username-group {
+        position: absolute;
+        top: 32%;
+        left: 24%;
+    }
+    .pword {
+        top: 48%;
+        left: 24%;
+    }
+    .email-group {
+        top: 40%;
+        left: 24%;
+    }
+    .code-group {
+        top: 56%;
+        left: 24%;
+    }
+    .bt-register {
+        position: absolute;
+        top: 68.5%;
+        right: 40%;
+        font-size: 18px;
+    }
+    .log {
+        position: absolute;
+        top: 63.5%;
+        left: 35%;
+    }
+    .btn-reset {
+        position: absolute;
+        top: 57%;
+        left: 37%;
+    }
+    .forgot {
+        position: absolute;
+        top: 45%;
+    }
+}
