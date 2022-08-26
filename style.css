@@ -90,7 +90,7 @@ button {
 
 .noacc {
     position: relative;
-    top: 290px;
+    top: 280px;
     font-size: 0.9rem;
 }
 
@@ -119,7 +119,7 @@ button {
 }
 .bt-register {
     position: absolute;
-    top: 72%;
+    top: 70%;
     right: 47%;
 }
 
