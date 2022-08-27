@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    text-align: center;
 }
 
 body {
@@ -11,172 +12,56 @@ body {
     display: grid;
     place-items: center;
     height: 100vh;
-    color: #fff;
 }
 
-.input-group {
-    position: fixed;
-    top: 38%;
-    left: 43%;
+.card {
+    width: 10cm;
+    height: 10cm;
+    display: grid;
+    place-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.145);
 }
 
-.input {
-    padding: 10px;
-    border: none;
-    border-radius: 4px;
+.input-group{
+    position: relative;
+}
+.input{
     font: inherit;
     color: #fff;
     background-color: transparent;
-    outline: 2px solid #fff;
+    border: none;
+    border-bottom: 2px solid #fff;
+    outline: none;
+    padding-block: 5px;
 }
-
-.input-label {
+.input::placeholder {
+    color: inherit;
+    transition: opacity 250ms;
+}
+.input:focus::placeholder {
+    opacity: 0;
+}
+.border-bottom{
     position: absolute;
-    top: 0;
     left: 0;
-    transform: translate(10px, 10px);
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #bb93fc;
+    transform: scaleX(0);
     transform-origin: left;
-    transition: transform .25s;
-    cursor: pointer;
+    transition: transform 500ms;
+}
+.input:focus + .border-bottom,
+.input:valid + .border-bottom {
+    transform: scaleX(1);
 }
 
-
-.input:focus~.input-label,
-.input:valid~.input-label {
-    transform: translate(0, -20px) scale(.8);
-    color: #d1c5fc;
-    border: none;
-}
-
-.input:is(:focus, :valid) {
-    outline-color: #d1c5fc;
-
-}
-
-.password-group {
-    position: absolute;
-    top: 50%;
-    left: 43%;
-}
-
-
-button {
-    padding: 10px;
-    border: none;
-    border-radius: 4px;
-    font: inherit;
+.register-text {
     color: #fff;
-    background-color: #6e5da9;
-    cursor: pointer;
-    position: relative;
-    top: 68%;
-    left: 48%;
 }
-
-.button-login {
-    position: absolute;
-    top: 60%;
-    left: 47%;
-}.button-login:hover {
-    background-color: #4b4170;
+.register-text:hover {
+    color: #bb93fc;
 }
-
-.pass-forgot {
-    position: relative;
-    top: 340px;
-    font-size: 0.9rem;
-    text-align: center;
-}
-
-.noacc {
-    position: relative;
-    top: 280px;
-    font-size: 0.9rem;
-}
-
-.username-group {
-    position: absolute;
-    top: 28%;
-    left: 43.5%;
-}
-
-.email-group {
-    position: absolute;
-    top: 38%;
-    left: 43.5%;
-}
-
-.pword {
-    position: absolute;
-    top: 48%;
-    left: 43.5%;
-}
-
-.code-group {
-    position: absolute;
-    top: 58%;
-    left: 43.5%;
-}
-.bt-register {
-    position: absolute;
-    top: 70%;
-    right: 47%;
-}
-
-.reg {
-    position: absolute;
-    top: 67%;
-    left: 44%;
-}.reg:hover {
-    background-color: #4b4170;
-}
-
-.log {
-    position: absolute;
-    top: 66%;
-    left: 47.5%;
-} .log:hover {
-    background-color: #4b4170;
-}
-
-.forgor {
-   position: absolute;
-    top: 72%;
-    left: 45.2%;
-    padding: 1px;
-} .forgor:hover {
-    background-color: #4b4170;
-}
-
-.forgot {
-    position: absolute;
-    top: 45%;
-    left: 42.7%;
-}
-
-.emailbutton {
-    position: absolute;
-    top: 62%;
-    left: 44.9%;
-}.emailbutton:hover {
-    background-color: #4b4170;
-}
-
-.bt-login {
-    position: relative;
-    right: 5px;
-    top: 280px;
-    font-size: 1rem;
-}  
-
-.card {
-    width: 400px;
-    height: 400px;
-    padding: 20px 40px 40px;
-    background: rgb(95, 94, 101);
-    border-bottom: 4px solid rgb(87, 7, 236);
-    border-radius: 20px;
-    transition: all 800ms ease-in-out;
-}.card:hover {
-    border-color: #ff99ff;
-} 

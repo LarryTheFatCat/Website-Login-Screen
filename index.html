@@ -1,36 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <link rel="icon" href="imgs/logo.png">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Please Login!">
 
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="${insertnamehere}'s Login Page!">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" href="imgs/logo.png">
 
-    <script src="https://kit.fontawesome.com/17abdb2eae.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/17abdb2eae.js" crossorigin="anonymous"></script>
 
-    <title>Login</title>
-    
+  <title>Login</title>
 </head>
-<body>
-    <div class="card">
-        <div class="input-group">
-            <input type="text" id="name" required class="input">
-            <label for="name" class="input-label">Username</label>
-        </div>
-        <div class="password-group">
-            <input type="password" id="password" required class="input">
-            <label for="password" class="input-label">Password</label>
-        </div>
 
-        <div class="button">
-            <button class="button-login">Login <i class="fa-solid fa-arrow-right-to-bracket"></i></button>
+<body>
+    <div class="container">
+        <div class="card card-login">
+    <section id="username">
+        <div class="input-group">
+            <input type="text" placeholder="Username" class="input" required>
+            <span class="border-bottom"></span>
         </div>
-        
-        <p4 class="pass-forgot">Forgot your password? <a href="forgotpass.html">Click Here</a></p4>
-        <p class="noacc">Don't have an account? <a href="register.html">Register Here</a></p>      
-</div>
+    </section>
+    <section id="password">
+        <div class="input-group">
+            <input type="password" placeholder="Password" class="input" required>
+            <span class="border-bottom"></span>
+        </div>
+    </section> 
+    <section>
+        <a>
+            <button class="btn login btn-login">
+                <i class="fa-solid fa-arrow-right-to-arc"></i>
+            </button>
+        </a>
+    </section>
+    <section id="register">
+        <a href="register.html" class="register register-text"><p>Register </p></a>
+    </section>           
+        </div>
+    </div>
 </body>
 </html>
