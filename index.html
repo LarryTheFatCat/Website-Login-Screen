@@ -17,29 +17,41 @@
 </head>
 
 <body>
+    <!--Login Field-->
     <div class="container">
         <div class="card card-login">
+    <!--Username section
+        I use sections to identify where each one is, it's dumb but I like it lol.
+    -->
     <section id="username">
         <div class="input-group">
             <input type="text" placeholder="Username" class="input" required>
             <span class="border-bottom"></span>
         </div>
     </section>
+    <!--Password section, same code but uses type="password", hides input for security THANKS HTML!!!-->
     <section id="password">
         <div class="input-group">
             <input type="password" placeholder="Password" class="input" required>
             <span class="border-bottom"></span>
         </div>
-    </section> 
-    <section>
+    </section>
+    <!--Login section--> 
+    <section id="login login-section">
+        <!--I use anchor attribute to link the site-->
         <a>
             <button class="btn login btn-login">
+                Login
                 <i class="fa-solid fa-arrow-right-to-arc"></i>
             </button>
         </a>
     </section>
-    <section id="register">
-        <a href="register.html" class="register register-text"><p>Register </p></a>
+    <!--Register section-->
+    <section id="regsiter register-section">
+        <!--Just like the login section I link the other site with an anchor tag-->
+        <a href="register.html" class="register register-text">
+            <p>Register</p>
+        </a>
     </section>           
         </div>
     </div>
