@@ -61,7 +61,26 @@ body {
 
 .register-text {
     color: #fff;
-}
-.register-text:hover {
+    font-size: 0.8rem;
+    position: relative;
+}.register-text:hover {
     color: #bb93fc;
+}
+
+.btn {
+    width: 5rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 10px;
+    background-color: #885e70;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 500ms;
+}
+
+.btn-login {
+    position: relative;
+    top: 25px;
 }
