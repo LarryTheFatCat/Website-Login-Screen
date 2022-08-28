@@ -1,9 +1,25 @@
-This was made with 1920 x 1080 display resolution, but as of 2022-08-27, this display was rewrittin and improved to support your needs,
-yesterday, I realized how terrible this looks and should rewrite it, which is what I did. I changed everything about it and it is now mobile responsive and should work with most other resolutions for desktops and mobiles!
+# Info
+
+The original Login-Screen I used was overly bloat and not user friendly at all. The old project had many bugs that I just could not figure out, so I ended up adding new code and removing a lot of old code, funny enough that actually damaged it more. I slowly started to go insane because I could not figure out how to actually make it mobile friendly and work for any type of width to height ratio but yet I could not figure that out... It was until a couple weeks later that I got fed up and finally rewrote it. The new Rewrite you're seeing is much more stable and insanely user friendly, it supports any width to height ratio no matter what you're using. This was tested with over 125 devices and it worked perfectly! I hope you like it.
 
 
-If you have any ideas on how to improve this, make a PR (Pull Request), I'm sure I'll take a look at it as soon as I am not busy. Make any joke PRs (PUll Requests) and I will block you from viewing this repository and my profiles if it continues. 
+# Features
+
+2 Input sections (username and password) 
+1 Button section (login)
+When input is clicked the bottom border colour transitions into a blue colour over a span of time which makes it a lot more clean in my opinion
+A background that is very nice to look at and is also very easy to see.
+A responsive card that works for all width to height ratio which helps making it user friendly
+The login button is perfect for this project because the way it looks matches with the concept of the project
 
 
-Documentation is pretty straight forward, doc your code so I can actually read it, make sure it's clean and not bloat code, and make sure it's readable.
+# Purpose
 
+The reason this was made if someone wants to use this Login Screen for their website it can speed up the process of creating the front end of a login screen. There are a few missing features such as creating an invalid tag, but I want you guys to create that because it is a very important feature for the project.
+
+
+# Credits
+
+This project was made by TwoThreeTwo, the GitHub Repository it is under.
+
+Using this project in your website is completely free, but if you want to give me credit for it, you can do so by giving me a link to the GitHub Repository.
