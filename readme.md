@@ -22,4 +22,4 @@ The reason this was made if someone wants to use this Login Screen for their web
 
 This project was made by TwoThreeTwo, the GitHub Repository it is under.
 
-Using this project in your website is completely free, but if you want to give me credit for it, you can do so by giving me a link to the GitHub Repository.
+Feel free to use this template on your own project, but if it is used in use that other people will be using it, then give credit on the release. If you have any questions or concerns, feel free to contact me on Discord (TwoThreeTwo#6969). This repository is now archived due to it being out of work!
