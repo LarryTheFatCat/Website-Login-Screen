@@ -1,25 +1,26 @@
 # Info
 
-The original Login-Screen I used was overly bloat and not user friendly at all. The old project had many bugs that I just could not figure out, so I ended up adding new code and removing a lot of old code, funny enough that actually damaged it more. I slowly started to go insane because I could not figure out how to actually make it mobile friendly and work for any type of width to height ratio but yet I could not figure that out... It was until a couple weeks later that I got fed up and finally rewrote it. The new Rewrite you're seeing is much more stable and insanely user friendly, it supports any width to height ratio no matter what you're using. This was tested with over 125 devices and it worked perfectly! I hope you like it.
+Designed with HTML5, CSS3 
+IDE: Visual Studio Code
+Figma-design file included (can be located in ./imgs/figma-design.png)
 
 
 # Features
 
-2 Input sections (username and password) 
-1 Button section (login)
-When input is clicked the bottom border colour transitions into a blue colour over a span of time which makes it a lot more clean in my opinion
-A background that is very nice to look at and is also very easy to see.
-A responsive card that works for all width to height ratio which helps making it user friendly
-The login button is perfect for this project because the way it looks matches with the concept of the project
-
-
+Completely user-friendly (Not used for commercial purposes)
+Responsive design
+Cross-browser compatibility
+Cross-platform compatibility
+Valid HTML5 and CSS3
+Easy to customize
+Well documented
+Clean code
+Well commented
 # Purpose
 
-The reason this was made if someone wants to use this Login Screen for their website it can speed up the process of creating the front end of a login screen. There are a few missing features such as creating an invalid tag, but I want you guys to create that because it is a very important feature for the project.
+Wanted to challenge my self with creating a modern design that is responsive and useful.
 
 
 # Credits
 
-This project was made by TwoThreeTwo, the GitHub Repository it is under.
-
-Feel free to use this template on your own project, but if it is used in use that other people will be using it, then give credit on the release. If you have any questions or concerns, feel free to contact me on Discord (TwoThreeTwo#6969). This repository is now archived due to it being out of work!
+No credits, created by me, no further research provided/documented
