@@ -2,18 +2,15 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Please Login!">
-
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="icon" href="imgs/logo.png">
-
-  <script src="https://kit.fontawesome.com/17abdb2eae.js" crossorigin="anonymous"></script>
-
-  <title>Login</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Login Panel">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="imgs/logo.png">
+    <script src="https://kit.fontawesome.com/17abdb2eae.js" crossorigin="anonymous"></script>
+    <title>Login Panel</title>
 </head>
 
 <!--I use sections to identify where each one is, it's dumb but I like it lol.-->
@@ -21,47 +18,50 @@
 <body>
     <!--Login Field-->
     <div class="container">
-        <div class="card card-login">
-    <!--Username section-->
-    <section id="username">
-        <div class="input-group pos">
-            <input type="text" placeholder="Username" class="input" required>
-            <span class="border-bottom"></span>
-        </div>
-    </section>
+        <form>
+            <div class="card card-login">
+                <!--Username section-->
+                <section id="username">
+                    <div class="input-group pos">
+                        <input type="text" placeholder="Username" class="input" required>
+                        <span class="border-bottom"></span>
+                    </div>
+                </section>
 
-    <!--Password section, same code but uses type="password", hides input for security THANKS HTML!!!-->
-    <section id="password">
-        <div class="input-group pos">
-            <input type="password" placeholder="Password" class="input" required>
-            <span class="border-bottom"></span>
-        </div>
-    </section>
+                <!--Password section, same code but uses type="password", hides input for security THANKS HTML!!!-->
+                <section id="password">
+                    <div class="input-group pos">
+                        <input type="password" placeholder="Password" class="input" required>
+                        <span class="border-bottom"></span>
+                    </div>
+                </section>
 
-    <!--Login section--> 
-    <section id="login login-section">
-        <!--I use anchor attribute to link the site-->
-        <a>
-            <button class="btn btn-login">
-                Login
-            </button>
-        </a>
-    </section>
+                <!--Login section-->
+                <section id="login login-section">
+                    <!--I use anchor attribute to link the site-->
+                    <a>
+                        <button class="btn btn-login">
+                            Login
+                        </button>
+                    </a>
+                </section>
+        </form>
 
-    <!--Separation indicator, no I'm not racist-->
-    <span class="line"></span>
+        <!--Separation indicator, no I'm not racist-->
+        <span class="line"></span>
 
-    <!--Forgot password-->
-    <section>
-        <div class="href-nopwd">
-            <a href="#">
-                <p1 class="nopwd">
-                    Forgot Password
-                </p1>
-            </a>
-        </div>
-    </section>          
-        </div>
+        <!--Forgot password-->
+        <section>
+            <div class="href-nopwd">
+                <a href="#">
+                    <p1 class="nopwd">
+                        Forgot Password
+                    </p1>
+                </a>
+            </div>
+        </section>
+    </div>
     </div>
 </body>
+
 </html>
