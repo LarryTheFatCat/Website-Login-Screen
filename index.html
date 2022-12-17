@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="imgs/logo.png">
     <script src="https://kit.fontawesome.com/17abdb2eae.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
     <title>Login Panel</title>
 </head>
 
@@ -20,14 +21,10 @@
     <div class="container">
         <form>
             <div class="card card-login">
-                <!-- Title -->
-                <h1 id="title-main">
-                    Please Login Here
-                </h1>
                 <!--Username section-->
                 <section id="username">
                     <div class="input-group pos">
-                        <input type="text" placeholder="Username" class="input" required>
+                        <input type="text" placeholder="Username" class="input" id="usernameInput" name="Username" aria-label="Username" required>
                         <span class="border-bottom"></span>
                     </div>
                 </section>
@@ -35,7 +32,8 @@
                 <!--Password section, same code but uses type="password", hides input for security THANKS HTML!!!-->
                 <section id="password">
                     <div class="input-group pos">
-                        <input type="password" placeholder="Password" class="input" required>
+                        <input type="password" placeholder="Password" class="input" id="passwordInput" name="Password" aria-label="Password" required>
+                        <i class="bi bi-eye-slash" id="bi-eye-slash"></i>
                         <span class="border-bottom"></span>
                     </div>
                 </section>
@@ -44,7 +42,7 @@
                 <section id="login login-section">
                     <!--I use anchor attribute to link the site-->
                     <a>
-                        <button class="btn btn-login">
+                        <button class="btn btn-login" id="log" onclick="checkVerify()" type="button" >
                             Login
                         </button>
                     </a>

@@ -115,10 +115,10 @@ a {
     font-size: 12px;
 }
 
-#title-main {
-    font-size: 25px;
+.bi-eye-slash {
     position: absolute;
-    top: 215px;
-    cursor: default;
+    left: 170px;
+    top: 6px;
     color: white;
+    cursor: default;
 }
