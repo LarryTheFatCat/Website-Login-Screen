@@ -114,3 +114,11 @@ a {
     top: -0.2cm;
     font-size: 12px;
 }
+
+#title-main {
+    font-size: 25px;
+    position: absolute;
+    top: 215px;
+    cursor: default;
+    color: white;
+}
