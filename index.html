@@ -19,37 +19,39 @@
 <body>
     <!--Login Field-->
     <div class="container">
-        <form type="SUBMIT" novalidate>
-            <div class="card card-login">
-                <!--Username section-->
-                <section id="username">
-                    <div class="input-group pos">
-                        <input type="text" aria-describedby="username-alert" placeholder="Username" class="input" id="usernameInput" name="Username" aria-label="Username" required>
-                        <span class="border-bottom"></span>
-                    </div>
-                </section>
+        <main>
+            <form type="SUBMIT" novalidate>
+                <div class="card card-login">
+                    <!--Username section-->
+                    <section id="username">
+                        <div class="input-group pos">
+                            <input type="text" aria-describedby="username-alert" placeholder="Username" class="input" id="usernameInput" name="Username" aria-label="Username" required>
+                            <span class="border-bottom"></span>
+                        </div>
+                    </section>
+    
+                    <!--Password section, same code but uses type="password", hides input for security THANKS HTML!!!-->
+                    <section id="password">
+                        <div class="input-group pos">
+                            <input type="password" aria-describedby="password-alert" placeholder="Password" class="input" id="passwordInput" name="Password" aria-label="Password" required>
+                            <i class="bi bi-eye-slash" id="bi-eye-slash"></i>
+                            <span class="border-bottom"></span>
+                        </div>
+                    </section>
+    
+                    <!--Login section-->
+                    <section id="login login-section">
+                        <!--I use anchor attribute to link the site-->
+                        <a>
+                            <button class="btn btn-login" id="log" onclick="checkVerify()" type="button" >
+                                Login
+                            </button>
+                        </a>
+                    </section>
+            </form>
+        </main>
 
-                <!--Password section, same code but uses type="password", hides input for security THANKS HTML!!!-->
-                <section id="password">
-                    <div class="input-group pos">
-                        <input type="password" aria-describedby="password-alert" placeholder="Password" class="input" id="passwordInput" name="Password" aria-label="Password" required>
-                        <i class="bi bi-eye-slash" id="bi-eye-slash"></i>
-                        <span class="border-bottom"></span>
-                    </div>
-                </section>
-
-                <!--Login section-->
-                <section id="login login-section">
-                    <!--I use anchor attribute to link the site-->
-                    <a>
-                        <button class="btn btn-login" id="log" onclick="checkVerify()" type="button" >
-                            Login
-                        </button>
-                    </a>
-                </section>
-        </form>
-
-        <!--Separation indicator, no I'm not racist-->
+        <!-- for some reason this makes it not go all wacky... I'm not touching it, don't remove it if you make a PR lol.-->
         <span class="line"></span>
 
         <!--Forgot password-->
@@ -63,9 +65,8 @@
             </div>
         </section>
     </div>
-    </div>
+</div>
     <!-- Authentication-->
     <script src="script.js"></script>
 </body>
-
 </html>

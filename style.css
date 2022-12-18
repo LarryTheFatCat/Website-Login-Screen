@@ -15,7 +15,7 @@ body {
 }
 
 .card {
-    width: 10cm;
+    min-width: 10cm;
     height: 10cm;
     display: grid;
     place-items: center;
@@ -121,4 +121,12 @@ a {
     top: 6px;
     color: white;
     cursor: default;
+}
+
+
+@media screen and (max-width: 320px) {
+    .card {
+        min-width: 8cm;
+        height: 10cm;
+    }
 }
