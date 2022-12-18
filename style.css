@@ -15,7 +15,7 @@ body {
 }
 
 .card {
-    min-width: 10cm;
+    width: 10cm;
     height: 10cm;
     display: grid;
     place-items: center;
@@ -61,14 +61,6 @@ body {
     transform: scaleX(1);
 }
 
-.register-text {
-    color: #fff;
-    font-size: 0.8rem;
-    position: relative;
-}.register-text:hover {
-    color: #bb93fc;
-}
-
 input:is(::after, :focus) {
     border-bottom: 2px solid #bb93fc;
     cursor: default;
@@ -76,7 +68,7 @@ input:is(::after, :focus) {
 
 .pos {
     position: relative;
-    top: 1.8cm;
+    top: 1.2cm;
 }
 
 .btn {
@@ -94,7 +86,7 @@ input:is(::after, :focus) {
 
 .btn-login {
     position: relative;
-    top: 1.8cm;
+    top: 0.8cm;
 }
 .btn-login:hover {
     background-color: #885e707b;
@@ -111,7 +103,8 @@ a {
 
 .href-nopwd {
     position: relative;
-    top: -0.2cm;
+    top: -2.5cm;
+    left: 3.55cm;
     font-size: 12px;
 }
 
@@ -123,6 +116,30 @@ a {
     cursor: default;
 }
 
+.error-message {
+    color: red;
+    font-size: 10px;
+    position: absolute;
+    /*display: none*/
+}
+
+.username {
+    top: 8.7cm;
+    animation: errorBlink 2s infinite;
+}
+
+
+@keyframes errorBlink {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
 
 @media screen and (max-width: 320px) {
     .card {
