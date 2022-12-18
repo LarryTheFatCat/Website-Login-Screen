@@ -61,6 +61,14 @@ body {
     transform: scaleX(1);
 }
 
+.register-text {
+    color: #fff;
+    font-size: 0.8rem;
+    position: relative;
+}.register-text:hover {
+    color: #bb93fc;
+}
+
 input:is(::after, :focus) {
     border-bottom: 2px solid #bb93fc;
     cursor: default;
@@ -68,7 +76,7 @@ input:is(::after, :focus) {
 
 .pos {
     position: relative;
-    top: 1.2cm;
+    top: 1.8cm;
 }
 
 .btn {
@@ -86,7 +94,7 @@ input:is(::after, :focus) {
 
 .btn-login {
     position: relative;
-    top: 0.8cm;
+    top: 1.8cm;
 }
 .btn-login:hover {
     background-color: #885e707b;
@@ -103,8 +111,7 @@ a {
 
 .href-nopwd {
     position: relative;
-    top: -2.5cm;
-    left: 3.55cm;
+    top: -0.2cm;
     font-size: 12px;
 }
 
