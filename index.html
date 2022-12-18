@@ -19,12 +19,12 @@
 <body>
     <!--Login Field-->
     <div class="container">
-        <form type="SUBMIT">
+        <form type="SUBMIT" novalidate>
             <div class="card card-login">
                 <!--Username section-->
                 <section id="username">
                     <div class="input-group pos">
-                        <input type="text" placeholder="Username" class="input" id="usernameInput" name="Username" aria-label="Username" required>
+                        <input type="text" aria-describedby="username-alert" placeholder="Username" class="input" id="usernameInput" name="Username" aria-label="Username" required>
                         <span class="border-bottom"></span>
                     </div>
                 </section>
@@ -32,7 +32,7 @@
                 <!--Password section, same code but uses type="password", hides input for security THANKS HTML!!!-->
                 <section id="password">
                     <div class="input-group pos">
-                        <input type="password" placeholder="Password" class="input" id="passwordInput" name="Password" aria-label="Password" required>
+                        <input type="password" aria-describedby="password-alert" placeholder="Password" class="input" id="passwordInput" name="Password" aria-label="Password" required>
                         <i class="bi bi-eye-slash" id="bi-eye-slash"></i>
                         <span class="border-bottom"></span>
                     </div>
