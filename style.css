@@ -127,11 +127,16 @@ a {
     color: red;
     font-size: 10px;
     position: absolute;
-    /*display: none*/
+    display: none
 }
 
 .username {
     top: 8.7cm;
+    animation: errorBlink 2s infinite;
+}
+
+.password {
+    top: 11cm;
     animation: errorBlink 2s infinite;
 }
 
