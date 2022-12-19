@@ -12,13 +12,17 @@ viewPassword.addEventListener("click", function() {
     this.classList.toggle("bi-eye"); 
 });
 
-button.addEventListener("click", function() {
+
+// Use this for regex auth purpose
+/**
+ * 
+ * button.addEventListener("click", function() {
     if(usernameInput.value == "" || passwordInput.value == "") {
         errorMessageUsername.style.display = "block";
         errorMessagePassword.style.display = "block";
     }
 });
-
+*/
 
 
 
