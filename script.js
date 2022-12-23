@@ -12,43 +12,27 @@ viewPassword.addEventListener("click", function() {
     this.classList.toggle("bi-eye"); 
 });
 
-// Testing project. fucking gotta fix the user input stuff...
-/*
-function checkVerify() {
-    let errorMessageUsername = document.getElementById("errormessage"); // Error Message username.
-    let errorMessagePassword = document.getElementById("errormessage-password"); // Error Message password.
-    let validation;
-    let regexUsername = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
-    let regexPassword = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,20}$/;
-    
-    validation = regexUsername.test(usernameInput.value);
-    validation = regexPassword.test(passwordInput.value);
-    console.log(validation);
 
-    if(validation == false) {
-        button.addEventListener("click", function() {
-            if(usernameInput.value == "" || passwordInput.value == "") {
-                errorMessageUsername.style.display = "block";
-                errorMessagePassword.style.display = "block";
-            }
-        });
-    } else {
-        console.log("You are logged in");
+
+function checkVerify() {
+    const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+    const passwordRegex = /^(?=[^a-z]*[a-z])(?=[^A-Z]*[A-Z])(?=\D*\d)(?=[^!#%]*[!#%])[A-Za-z0-9!#%]{8,32}$/;
+
+    const validateEmail = emailRegex.test(usernameInput.value);
+    const validatePassword = passwordRegex.test(passwordInput.value);
+
+    if(usernameInput.value === "" && passwordInput.value === "") {
+        errorMessagePassword.style.display = "block";
+        errorMessageUsername.style.display = "block";
+    } else if(validateEmail === false && validatePassword === false) {
+        errorMessagePassword.style.display = "block";
+        errorMessageUsername.style.display = "block";
+    }
+
+    if(validateEmail === true && validatePassword === true) {
+        errorMessagePassword.style.display = "none";
+        errorMessageUsername.style.display = "none";
     }
 }
-*/
-
-// Use this for regex auth purpose
-/**
- * 
- * button.addEventListener("click", function() {
-    if(usernameInput.value == "" || passwordInput.value == "") {
-        errorMessageUsername.style.display = "block";
-        errorMessagePassword.style.display = "block";
-    }
-});
-*/
-
-
 
 

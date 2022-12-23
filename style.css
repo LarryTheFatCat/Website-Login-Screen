@@ -106,10 +106,34 @@ a {
 }
 
 .nopwd:hover {
+    cursor: pointer;
     color: #bb93fc;
 }
 
+.nopwd {
+    transition-delay: 0.25s ease;
+}
+
+.nopwd::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.nopwd:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
 .href-nopwd {
+    color: white;
     position: relative;
     top: -0.2cm;
     font-size: 12px;
@@ -126,17 +150,17 @@ a {
 .error-message {
     color: red;
     font-size: 10px;
-    position: absolute;
-    display: none
+    position: relative;
+    display: none;
 }
 
 .username {
-    top: 8.7cm;
+    top: 2cm;
     animation: errorBlink 2s infinite;
 }
 
 .password {
-    top: 11cm;
+    top: 2cm;
     animation: errorBlink 2s infinite;
 }
 
@@ -155,7 +179,7 @@ a {
 
 @media screen and (max-width: 320px) {
     .card {
-        min-width: 8cm;
+        max-width: 8cm;
         height: 10cm;
     }
 }
