@@ -16,22 +16,16 @@ viewPassword.addEventListener("click", function() {
 
 function checkVerify() {
     const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
-    const passwordRegex = /^(?=[^a-z]*[a-z])(?=[^A-Z]*[A-Z])(?=\D*\d)(?=[^!#%]*[!#%])[A-Za-z0-9!#%]{8,32}$/;
 
     const validateEmail = emailRegex.test(usernameInput.value);
-    const validatePassword = passwordRegex.test(passwordInput.value);
+    console.log(validateEmail)
 
-    if(usernameInput.value === "" && passwordInput.value === "") {
-        errorMessagePassword.style.display = "block";
+    if(passwordInput.value.length < 8 || validateEmail === false) {
         errorMessageUsername.style.display = "block";
-    } else if(validateEmail === false && validatePassword === false) {
         errorMessagePassword.style.display = "block";
-        errorMessageUsername.style.display = "block";
-    }
-
-    if(validateEmail === true && validatePassword === true) {
-        errorMessagePassword.style.display = "none";
+    } else if(passwordInput.value.length > 8 || validateEmail === true  ){
         errorMessageUsername.style.display = "none";
+        errorMessagePassword.style.display = "none";
     }
 }
 
