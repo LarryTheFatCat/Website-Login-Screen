@@ -18,7 +18,6 @@ function checkVerify() {
     const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
 
     const validateEmail = emailRegex.test(usernameInput.value);
-    console.log(validateEmail)
 
     if(passwordInput.value.length < 8 || validateEmail === false) {
         errorMessageUsername.style.display = "block";
