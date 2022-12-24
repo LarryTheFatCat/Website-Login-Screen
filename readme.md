@@ -1,6 +1,12 @@
 # Info
 
-Designed with HTML5, CSS3, Babel JavaScript
+Designed with:
+ HTML5
+ <br>
+ CSS3
+ <br>
+ Babel JavaScript
+ <br>
 IDE: Visual Studio Code
 
 
@@ -20,6 +26,7 @@ Valid HTML5, CSS3, JavaScript
 <br>
 Easy to customize
 <br>
+
 # Purpose
 
-Wanted to challenge my self with creating a futuristic design with a futuristic feel to it.
+Wanted to challenge my self with creating a futuristic design with a futuristic feel to it. 
