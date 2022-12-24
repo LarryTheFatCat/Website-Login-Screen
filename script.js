@@ -13,10 +13,8 @@ viewPassword.addEventListener("click", function() {
 });
 
 
-
 function checkVerify() {
     const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
-
     const validateEmail = emailRegex.test(usernameInput.value);
 
     if(passwordInput.value.length < 8 || validateEmail === false) {
@@ -27,5 +25,3 @@ function checkVerify() {
         errorMessagePassword.style.display = "none";
     }
 }
-
-
