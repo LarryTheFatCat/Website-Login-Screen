@@ -5,8 +5,8 @@ const button = document.getElementById("log"); // Login Button.
 const errorMessageUsername = document.getElementById("errormessage"); // Error Message username.
 const errorMessagePassword = document.getElementById("errormessage-password"); // Error Message password.
 
-// Main onclick function for verification
-function checkVerify() { 
+// Arrow function for onclick
+const checkVerify = () => {
     const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/; // Determines if user correctly inputs email
     const validateEmail = emailRegex.test(usernameInput.value);
 
