@@ -110,34 +110,29 @@ a {
     color: #bb93fc;
 }
 
-.nopwd {
-    transition-delay: 0.25s ease;
-}
 
-.nopwd::after {
-    content: '';
+.nopwd::before {
+    content: "";
     position: absolute;
+    display: block;
     width: 100%;
-    transform: scaleX(0);
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #0087ca;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
+    background-color: #bb93fc;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;;
 }
 
-.nopwd:hover::after {
+.nopwd:hover::before {
     transform: scaleX(1);
-    transform-origin: bottom left;
 }
-
 .href-nopwd {
     color: white;
     position: relative;
     top: -0.2cm;
     font-size: 12px;
-}
+} 
 
 .bi-eye-slash {
     position: absolute;
