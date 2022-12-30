@@ -1,9 +1,9 @@
-const viewPassword = document.getElementById("bi-eye-slash"); // BootStrap Icon For Eye Slash password.
-const passwordInput = document.getElementById("passwordInput"); // Input Password.
-const usernameInput = document.getElementById("usernameInput"); // Username input.
-const button = document.getElementById("log"); // Login Button.
-const errorMessageUsername = document.getElementById("errormessage"); // Error Message username.
-const errorMessagePassword = document.getElementById("errormessage-password"); // Error Message password.
+const viewPassword = document.getElementById("bi-eye-slash");
+const passwordInput = document.getElementById("passwordInput"); 
+const usernameInput = document.getElementById("usernameInput"); 
+const button = document.getElementById("log"); 
+const errorMessageUsername = document.getElementById("errormessage"); 
+const errorMessagePassword = document.getElementById("errormessage-password"); 
 
 // Arrow function for onclick
 const checkVerify = () => {

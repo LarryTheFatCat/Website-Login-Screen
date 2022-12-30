@@ -8,52 +8,44 @@
     <meta name="description" content="Login Panel">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="imgs/logo.png">
-    <script src="https://kit.fontawesome.com/17abdb2eae.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
     <title>Login Panel</title>
 </head>
 
-<!--I use sections to identify where each one is, it's dumb but I like it lol.-->
-
 <body>
-    <!--Login Field-->
     <div class="container">
-            <form type="SUBMIT">
-                <div class="card card-login">
-                    <!--Username section-->
-                    <section id="username">
-                        <div class="input-group pos">
-                            <input type="text" aria-describedby="username-alert" placeholder="Email" class="input" id="usernameInput" name="Username" aria-label="Username" required>
-                            <span class="border-bottom"></span>
-                        </div>
-                        <p class="error-message username" id="errormessage">
-                            Invalid Email
-                        </p>
-                    </section>
-    
-                    <!--Password section, same code but uses type="password", hides input for security THANKS HTML!!!-->
-                    <section id="password">
-                        <div class="input-group pos">
-                            <input type="password" aria-describedby="password-alert" placeholder="Password" class="input" id="passwordInput" name="Password" aria-label="Password" required>
-                            <i class="bi bi-eye-slash" id="bi-eye-slash"></i>
-                            <span class="border-bottom"></span>
-                        </div>
-                        <p class="error-message password" id="errormessage-password">
-                            Invalid Password
-                        </p>
-                    </section>
-    
-                    <!--Login section-->
-                    <section id="login login-section">
-                        <!--I use anchor attribute to link the site-->
-                        <a>
-                            <button class="btn btn-login" id="log" onclick="checkVerify()" type="button" >
-                                Login
-                            </button>
-                        </a>
-                    </section>
-            </form>
-
+        <form type="SUBMIT">
+            <div class="card card-login">
+                <!--Username section-->
+                <section id="username">
+                    <div class="input-group pos">
+                        <input type="text" aria-describedby="username-alert" placeholder="Email" class="input"
+                            id="usernameInput" name="Username" aria-label="Username" required>
+                        <span class="border-bottom"></span>
+                    </div>
+                    <p class="error-message username" id="errormessage">
+                        Invalid Email
+                    </p>
+                </section>
+                <!-- Password section -->
+                <section id="password">
+                    <div class="input-group pos">
+                        <input type="password" aria-describedby="password-alert" placeholder="Password" class="input"
+                            id="passwordInput" name="Password" aria-label="Password" required>
+                        <i class="bi bi-eye-slash" id="bi-eye-slash"></i>
+                        <span class="border-bottom"></span>
+                    </div>
+                    <p class="error-message password" id="errormessage-password">
+                        Invalid Password
+                    </p>
+                </section>
+                <!--Login section-->
+                <section id="login login-section">
+                    <button class="btn btn-login" id="log" onclick="checkVerify()" type="button">
+                        Login
+                    </button>
+                </section>
+        </form>
 
         <!-- for some reason this makes it not go all wacky... I'm not touching it, don't remove it if you make a PR lol.-->
         <span class="line"></span>
@@ -62,13 +54,13 @@
         <section>
             <div class="href-nopwd">
                 <p1 class="nopwd">
-                        Forgot Password
-                    </p1>
+                    Forgot Password
+                </p1>
             </div>
         </section>
     </div>
-</div>
-    <!-- Authentication-->
+    </div>
     <script src="script.js"></script>
 </body>
+
 </html>
