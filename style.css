@@ -94,7 +94,7 @@ input:is(::after, :focus) {
 
 .btn-login {
     position: relative;
-    top: 1.8cm;
+    top: 60px;
 }
 .btn-login:hover {
     background-color: #885e707b;
@@ -124,7 +124,6 @@ input:is(::after, :focus) {
 }
 #href {
     color: white;
-    position: relative;
     font-size: 12px;
 } 
 
