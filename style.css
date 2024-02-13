@@ -100,13 +100,13 @@ input:is(::after, :focus) {
     background-color: #885e707b;
 }
 
-.nopwd:hover {
+#href-btn:hover {
     cursor: pointer;
     color: #bb93fc;
 }
 
 
-.nopwd::before {
+#href-btn::before {
     content: "";
     position: absolute;
     display: block;
@@ -119,13 +119,12 @@ input:is(::after, :focus) {
     transition: transform 0.3s ease;;
 }
 
-.nopwd:hover::before {
+#href-btn:hover::before {
     transform: scaleX(1);
 }
-.href-nopwd {
+#href {
     color: white;
     position: relative;
-    top: -0.2cm;
     font-size: 12px;
 } 
 
@@ -138,7 +137,7 @@ input:is(::after, :focus) {
 }
 
 .error-message {
-    color: red;
+    color: rgb(234, 67, 67);
     font-size: 10px;
     position: relative;
     display: none;
